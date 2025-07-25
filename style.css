@@ -205,5 +205,49 @@ main section{
 }
 
 .join{
-    
+    width: 100vw;
+    position: relative;
+    left: 50%; 
+    margin-left: -50vw; 
+    background-image:url(assets/news-letter-bg.png);
+    padding:150px 0;
+    text-align:center;
+    background-size: cover;
+}
+.join h2{
+    color:#fff;
+    font-size:4.2rem;
+    margin-bottom:20px;
+}
+.join input{
+    width:600px;
+    padding:15px 10px;
+}
+.join button{
+    width:186px;
+    font-size:16px;
+    font-weight: 600;
+    background-color:#E95A08;
+    border:none;
+    color: #fff;
+    padding:15px 0;
+    margin-left:-5px;
+}
+footer{
+    display:flex;
+    padding:50px 0;
+    justify-content: space-between;
+}
+footer .logo{
+    width:355px;
+}
+footer li{
+    list-style-type: none;
+    padding:10px;
+}
+footer li a{
+    text-decoration: none;
+}
+.logos img{
+   padding:10px; 
 }
