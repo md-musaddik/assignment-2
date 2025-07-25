@@ -81,7 +81,7 @@ main section{
     font-size: 3.1rem;
 }
 .products-des{
-    font-size:1.4rem;
+    font-size:1.3rem;
     color:rgba(0, 0, 0, 0.5);
     margin-bottom:20px;
 }
@@ -118,6 +118,7 @@ main section{
     align-items: center;
     margin-bottom:130px;
 }
+
 .lover-imgs{
     position: relative;
 }
@@ -163,6 +164,7 @@ main section{
     display: flex;
     gap:20px;
     color:#fff;
+    
 }
 .lt-continer a{
     color:#fff;
@@ -181,7 +183,7 @@ main section{
     border-radius: 20px;
 }
 .lt-inner-container-1{
-    width:367px; 
+    width:32%; 
 }
 .lt-inner-container-1 h5{
     font-size:20px;
@@ -192,9 +194,10 @@ main section{
 }
 
 .lt-inner-container-2{
-    width:750px;
+    width:65%;
     background-image: url(assets/deal-zabo.png);
     padding:150px 0;
+    border-radius: 20px;
 }
 .lt-inner-container-2 h5{
     font-size:40px;
@@ -247,6 +250,7 @@ footer li{
 }
 footer li a{
     text-decoration: none;
+    color:#8987A1;
 }
 .logos img{
    padding:10px; 
@@ -264,17 +268,51 @@ footer li a{
         flex-direction: column-reverse;
     }
     
-    body{
-        padding:0 10px;
-    }
+    
     .header-title{
         font-size:45px;
         margin-top:-70px;
     }
    .plants-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:20px;}
+    grid-template-columns: repeat(2,calc(50% - 10px));
+    gap:20px;
+
+    }
+    .plants-container img{
+        width:100%
+    }
     .badge{display:none;}
+    .lt-inner-container-1,.lt-inner-container-2{
+        width:100%;
+        
+    }
+    .bloom, .ana,.lt-inner-container-2{
+        background-size: cover;
+    }
+    .lt-inner-container-2{
+        padding:70px 0;
+    }
+    .lt-inner-container-2 h5{
+       font-size: 20px;
+    }
+    .lt-inner-container-2 a{
+        font-size:16px;
+    }
+    .join input{
+    width:190px;
+    }
+    .join h2{
+        font-size:22px;
+    }
+    .join button{
+        width:90px;
+    }
+    .store-img{
+        width:100%;
+    }
+    body{
+        padding: 0 10px;
+    }
     
 }
