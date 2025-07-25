@@ -83,4 +83,30 @@ main section{
 .products-des{
     font-size:1.4rem;
     color:rgba(0, 0, 0, 0.5);
+    margin-bottom:20px;
+}
+.plants-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+.plants-name{
+    font-weight: 500;
+    font-size:22px;
+    margin-top:10px;
+}
+.plants-price{
+    font-weight: 700;
+    font-size:22px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+.plants-container button{
+    width:100%;
+    padding:20px 0;
+    font-size:16px;
+    font-weight: 600;
+    background-color:#E95A08;
+    border:none;
+    color: #fff;
 }
