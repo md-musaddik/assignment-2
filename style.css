@@ -251,3 +251,30 @@ footer li a{
 .logos img{
    padding:10px; 
 }
+
+/* Responsive Design */
+@media screen and (max-width:576px){
+    .display-none{
+        display:none;
+    }
+    .flex-column{
+        flex-direction: column;
+    }
+    .flex-column-rev{
+        flex-direction: column-reverse;
+    }
+    
+    body{
+        padding:0 10px;
+    }
+    .header-title{
+        font-size:45px;
+        margin-top:-70px;
+    }
+   .plants-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;}
+    .badge{display:none;}
+    
+}
